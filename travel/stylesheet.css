@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    background-color: white;
+}
+
+header {
+    height: 765px;
+    width: 100%;
+    background-color: brown;
+    background: url("/travel/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png") no-repeat center;
+    background-size: cover; 
+}
+
+.headerMenu {
+    width:100%;
+    height: 90px;
+    background-color:rgba(242,120,92, 0.7);
+    display: flex;
+    
+
+}
+
+.logo {
+width: 216px;
+height: 31px;
+margin-top: 25px;
+margin-left: 120px;
+}
+
+.navigation {
+    font-family: 'Red Hat Text';
+    color: white;
+    display: flex;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 34px;
+    column-gap: 42px;
+    width: 881px;
+
+}
+
+.button {
+    width: 103px;
+    height: 41px;
+    border-radius: 10px;
+    background-color: #0D606F;
+    color: white;
+    border: none;
+    font-family: 'Red Hat Text';
+    margin-top: 25px;
+    margin-right: 120px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.title {
+    margin-top: 32px;
+    margin-left: 120px;
+    width: 892px;
+
+}
+
+
+h1 {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Aleo';
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    margin-top: 32px;
+}
+
+.form {
+    margin-top: 46px;
+    margin-left: 120px;
+}
+
+.input {
+    background: rgba(255, 255, 255, 0.7);
+    width: 892px;
+    height: 95px;
+    padding-top: 35px;
+    padding-bottom: 41px;
+    padding-left: 41px;
+    border-radius: 16px;
+    font-family: 'Aleo';
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #F2785C;
+    border: none;
+}
+
+::placeholder {
+    color:#F2785C;
+}
+
+.buttonSearch {
+    width: 228px;
+    height: 59px;
+    border-radius: 10px;
+    position:absolute;
+    left: 766px;
+    top: 434px;
+    background-color: rgba(13, 96, 111, 1);
+    box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
+    border: none;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    padding: 10px, 32px, 10px, 32px;
+
+}
