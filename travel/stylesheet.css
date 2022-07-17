@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,6 +7,7 @@
 body {
     width: 1440px;
     background-color: white;
+    margin: auto;
 }
 
 header {
@@ -14,23 +15,23 @@ header {
     width: 100%;
     background-color: brown;
     background: url("mountains.png") no-repeat center;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .headerMenu {
-    width:100%;
+    width: 100%;
     height: 90px;
-    background-color:rgba(242,120,92, 0.7);
+    background-color: rgba(242, 120, 92, 0.7);
     display: flex;
-    
+
 
 }
 
 .logo {
-width: 216px;
-height: 31px;
-margin-top: 25px;
-margin-left: 120px;
+    width: 216px;
+    height: 31px;
+    margin-top: 25px;
+    margin-left: 120px;
 }
 
 .navigation {
@@ -81,7 +82,7 @@ h1 {
     color: white;
 }
 
-h2 {
+.subtitle {
     font-family: 'Aleo';
     font-style: italic;
     font-size: 20px;
@@ -114,14 +115,14 @@ h2 {
 }
 
 ::placeholder {
-    color:#F2785C;
+    color: #F2785C;
 }
 
 .buttonSearch {
     width: 228px;
     height: 59px;
     border-radius: 10px;
-    position:absolute;
+    position: absolute;
     left: 766px;
     top: 434px;
     background-color: rgba(13, 96, 111, 1);
@@ -135,4 +136,148 @@ h2 {
     color: white;
     padding: 10px, 32px, 10px, 32px;
 
+}
+
+.stepsTitle {
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+}
+
+.stepsContainer {
+    width: 1177px;
+    height: 154px;
+    margin-top: 40px;
+    margin-left: 131px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon1 {
+    text-align: center;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
+
+
+figcaption {
+    margin-top: 30px;
+}
+
+.destinationsTitle {
+    margin-top: 97px;
+    text-align: center;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.landscape {
+    position: relative;
+    margin-top: 46px;
+}
+
+.landscapeName {
+    position: absolute;
+    top: 718px;
+    left: 15px;
+    width: 100%;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 24px;
+}
+
+.button {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    background: rgba(242, 120, 92, 0.5);
+    box-shadow: none;
+}
+
+.buttonFindMore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    padding: 31px;
+    margin-left: 607px;
+    background-color: rgba(13, 96, 111, 1);
+    width: 228px;
+    height: 59px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+}
+
+.buttonFindMoreTitle {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.travelStories {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+
+}
+
+.backgroundTravelStories {
+    background-image: url("footerbackground.png");
+    height: 1331px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.whiteSectionContainer {
+    width: 100%;
+    height: 1270px;
+    background-color:rgba(255, 255, 255, 0.7);
 }
