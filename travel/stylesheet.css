@@ -32,12 +32,6 @@ header {
   margin-top: 25px;
 }
 
-.list-and-logo {
-  width: 901px;
-  display: flex;
-  justify-content: space-between;
-}
-
 .navigation {
   font-family: "Red Hat Text";
   color: white;
