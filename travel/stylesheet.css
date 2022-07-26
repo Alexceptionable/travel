@@ -1,371 +1,362 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    width: 1440px;
-    background-color: white;
-    margin: auto;
+  background-color: white;
+  margin: auto;
 }
 
 header {
-    height: 765px;
-    width: 100%;
-    background-color: brown;
-    background: url("mountains.png") no-repeat center;
-    background-size: cover;
+  height: 765px;
+  width: 100%;
+  background-color: brown;
+  background: url("mountains.png") no-repeat center;
+  background-size: cover;
 }
 
 .headerMenu {
-    width: 100%;
-    height: 90px;
-    background-color: rgba(242, 120, 92, 0.7);
-    display: flex;
-
-
+  width: 100%;
+  height: 90px;
+  background-color: rgba(242, 120, 92, 0.7);
+  display: flex;
+  padding: 0 120px;
+  justify-content: space-between;
 }
 
 .logo {
-    width: 216px;
-    height: 31px;
-    margin-top: 25px;
-    margin-left: 120px;
+  width: 216px;
+  height: 31px;
+  margin-top: 25px;
+}
+
+.list-and-logo {
+  width: 901px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navigation {
-    font-family: 'Red Hat Text';
-    color: white;
-    display: flex;
+  font-family: "Red Hat Text";
+  color: white;
+  display: flex;
 }
 
 .list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
-    margin-bottom: 34px;
-    column-gap: 42px;
-    width: 881px;
-
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 34px;
+  column-gap: 42px;
 }
 
 .buttonLogin {
-    width: 103px;
-    height: 41px;
-    border-radius: 10px;
-    background-color: #0D606F;
-    color: white;
-    border: none;
-    font-family: 'Red Hat Text';
-    margin-top: 25px;
-    margin-right: 120px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 103px;
+  height: 41px;
+  border-radius: 10px;
+  background-color: #0d606f;
+  color: white;
+  border: none;
+  font-family: "Red Hat Text";
+  margin-top: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 
 .title {
-    margin-top: 32px;
-    margin-left: 120px;
-    width: 892px;
-
+  margin-top: 32px;
+  margin-left: 120px;
+  width: 892px;
 }
 
-
 h1 {
-    font-family: 'Aleo';
-    font-style: normal;
-    font-size: 80px;
-    font-weight: 700;
-    line-height: 96px;
-    color: white;
+  font-family: "Aleo";
+  font-style: normal;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 96px;
+  color: white;
 }
 
 .subtitle {
-    font-family: 'Aleo';
-    font-style: italic;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    color: white;
-    margin-top: 32px;
+  font-family: "Aleo";
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  margin-top: 32px;
 }
 
-
 .formSkin {
-    margin-top: 46px;
-    margin-left: 120px;
-    background: rgba(255, 255, 255, 0.7);
-    width: 892px;
-    height: 95px;
-    padding-left: 41px;
-    border-radius: 16px;
-    border: none;
+  margin-top: 46px;
+  margin-left: 120px;
+  background: rgba(255, 255, 255, 0.7);
+  width: 892px;
+  height: 95px;
+  padding-left: 41px;
+  border-radius: 16px;
+  border: none;
 }
 
 .input {
-    background: rgba(255, 255, 255, 0);
-    width: 560px;
-    height: 95px;
-    font-family: 'Aleo';
-    font-style: italic;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28.8px;
-    color: #F2785C;
-    border: none;
-    outline: none;
+  background: rgba(255, 255, 255, 0);
+  width: 560px;
+  height: 95px;
+  font-family: "Aleo";
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: #f2785c;
+  border: none;
+  outline: none;
 }
 
 ::placeholder {
-    color: #F2785C;
+  color: #f2785c;
 }
 
 .buttonSearch {
-    width: 228px;
-    height: 59px;
-    border-radius: 10px;
-    position: absolute;
-    left: 766px;
-    top: 434px;
-    background-color: rgba(13, 96, 111, 1);
-    box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
-    border: none;
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    color: white;
-    padding: 10px, 32px, 10px, 32px;
-
+  width: 228px;
+  height: 59px;
+  border-radius: 10px;
+  position: absolute;
+  left: 766px;
+  top: 434px;
+  background-color: rgba(13, 96, 111, 1);
+  box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
+  border: none;
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: white;
+  padding: 10px, 32px, 10px, 32px;
 }
 
 .stepsTitle {
-    margin-top: 80px;
-    text-align: center;
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 53px;
-    color: #F2785C;
+  margin-top: 80px;
+  text-align: center;
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  color: #f2785c;
 }
 
 .stepsContainer {
-    width: 1177px;
-    height: 154px;
-    margin-top: 40px;
-    margin-left: 131px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  height: 154px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .icon1 {
-    text-align: center;
-    font-family: 'Aleo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #0D606F;
+  text-align: center;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0d606f;
 }
 
-
 figcaption {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .destinationsTitle {
-    margin-top: 97px;
-    text-align: center;
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 53px;
-    color: #F2785C;
+  margin-top: 97px;
+  text-align: center;
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  color: #f2785c;
 }
 
 .slider {
-    display: flex;
-    flex-direction: row;
-    column-gap: 60px;
-    justify-content: space-around;
-    overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  justify-content: space-around;
+  overflow: hidden;
 }
 
 .landscape {
-    position: relative;
-    margin-top: 46px;
+  position: relative;
+  margin-top: 46px;
 }
 
 .landscapeName {
-    position: absolute;
-    top: 718px;
-    left: 15px;
-    width: 100%;
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 42px;
+  position: absolute;
+  top: 718px;
+  left: 15px;
+  width: 100%;
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    column-gap: 10px;
-    margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 24px;
 }
 
 .button {
-    margin: 0;
-    width: 20px;
-    height: 20px;
-    background: rgba(242, 120, 92, 0.5);
-    box-shadow: none;
-    border-radius: 50%;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  background: rgba(242, 120, 92, 0.5);
+  box-shadow: none;
+  border-radius: 50%;
 }
 
 .buttonFindMore {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 10px;
-    padding: 31px;
-    margin-left: 607px;
-    background-color: rgba(13, 96, 111, 1);
-    width: 228px;
-    height: 59px;
-    margin-top: 40px;
-    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
-    border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  padding: 31px;
+  margin-left: 607px;
+  background-color: rgba(13, 96, 111, 1);
+  width: 228px;
+  height: 59px;
+  margin-top: 40px;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
 }
 
 .arrow {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .buttonFindMoreTitle {
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
 }
 
 .travelStories {
-    text-align: center;
-    margin-top: 80px;
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 53px;
-    color: #F2785C;
-
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  color: #f2785c;
 }
 
 .backgroundTravelStories {
-    background-image: url("footerbackground.png");
-    height: 1331px;
-    width: 100%;
-    margin-top: 40px;
+  background-image: url("footerbackground.png");
+  height: 1331px;
+  width: 100%;
+  margin-top: 40px;
 }
 
 .whiteSectionContainer1 {
-    width: 100%;
-    height: 1270px;
-    background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  height: 1270px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .firstRow {
-    padding-top: 45px;
-    padding-left: 120px;
-    padding-right: 120px;
-    column-gap: 40px;
-    left: 120px;
-    display: flex;
-    flex-direction: row;
+  padding-top: 45px;
+  padding-left: 120px;
+  padding-right: 120px;
+  column-gap: 40px;
+  left: 120px;
+  display: flex;
+  flex-direction: row;
 }
 
 .imageRow1 {
-    filter: drop-shadow(0px 4px 4px #0D606F);
-    border-radius: 16px;
+  filter: drop-shadow(0px 4px 4px #0d606f);
+  border-radius: 16px;
 }
 
 .titleRow1 {
-    font-family: 'Aleo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 42px;
-    color: #0D606F;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  color: #0d606f;
 }
 
 .textRow1 {
-    margin-top: 24px;
-    font-family: 'Aleo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #0D606F;
+  margin-top: 24px;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0d606f;
 }
 
 .readMore {
-    font-family: 'Aleo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    text-decoration-line: underline;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration-line: underline;
 
-    color: #0D606F;
+  color: #0d606f;
 }
 
 .secondRow {
-    padding-top: 30px;
-    padding-left: 120px;
-    padding-right: 120px;
-    column-gap: 40px;
-    left: 120px;
-    display: flex;
-    flex-direction: row;
+  padding-top: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+  column-gap: 40px;
+  left: 120px;
+  display: flex;
+  flex-direction: row;
 }
 
 .footer {
-    display: flex;
-    height: 61px;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-    column-gap: 328px;
-    margin-right: 121px;
-
+  display: flex;
+  height: 61px;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  column-gap: 328px;
+  margin-right: 121px;
 }
 
 .rights {
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 21px;
-    color: #FFFFFF;
-
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
 }
 
 .socials {
-    margin-top: 5px;
-    display: flex;
-    flex-direction: row;
-    column-gap: 20px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
 }
