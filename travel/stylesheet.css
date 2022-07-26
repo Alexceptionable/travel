@@ -24,6 +24,7 @@ header {
   display: flex;
   padding: 0 120px;
   justify-content: space-between;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .logo {
@@ -62,7 +63,7 @@ header {
 .title {
   margin-top: 32px;
   margin-left: 120px;
-  width: 892px;
+  width: 63%;
 }
 
 h1 {
@@ -86,9 +87,10 @@ h1 {
 
 .formSkin {
   margin-top: 46px;
-  margin-left: 120px;
+  margin-left: 8.4%;
+  width: 80%;
+  max-width: 892px;
   background: rgba(255, 255, 255, 0.7);
-  width: 892px;
   height: 95px;
   padding-left: 41px;
   border-radius: 16px;
@@ -97,7 +99,9 @@ h1 {
 
 .input {
   background: rgba(255, 255, 255, 0);
-  width: 560px;
+  width: 60%;
+  max-width: 560px;
+  margin-right: 13с%;
   height: 95px;
   font-family: "Aleo";
   font-style: italic;
@@ -114,12 +118,13 @@ h1 {
 }
 
 .buttonSearch {
-  width: 228px;
+  width: 25%;
+  max-width: 228px;
   height: 59px;
   border-radius: 10px;
-  position: absolute;
-  left: 766px;
-  top: 434px;
+  /* position: absolute; */
+  /* left: 766px; */
+  /* top: 434px; */
   background-color: rgba(13, 96, 111, 1);
   box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
   border: none;
@@ -226,11 +231,11 @@ figcaption {
   align-items: center;
   column-gap: 10px;
   padding: 31px;
-  margin-left: 607px;
+
   background-color: rgba(13, 96, 111, 1);
   width: 228px;
   height: 59px;
-  margin-top: 40px;
+  margin: 40px auto 0;
   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
     0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
@@ -263,30 +268,30 @@ figcaption {
 
 .backgroundTravelStories {
   background-image: url("footerbackground.png");
-  height: 1331px;
   width: 100%;
   margin-top: 40px;
 }
 
 .whiteSectionContainer1 {
   width: 100%;
-  height: 1270px;
+  height: 100%;
+  padding-bottom: 40px;
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-.firstRow {
-  padding-top: 45px;
-  padding-left: 120px;
-  padding-right: 120px;
+.content-container {
+  display: grid;
+  grid-template-columns: 33% 1fr;
+  padding: 40px 120px;
   column-gap: 40px;
-  left: 120px;
-  display: flex;
-  flex-direction: row;
+  row-gap: 30px;
 }
 
 .imageRow1 {
   filter: drop-shadow(0px 4px 4px #0d606f);
   border-radius: 16px;
+  justify-self: end;
+  width: 100%;
 }
 
 .titleRow1 {
@@ -319,24 +324,14 @@ figcaption {
   color: #0d606f;
 }
 
-.secondRow {
-  padding-top: 30px;
-  padding-left: 120px;
-  padding-right: 120px;
-  column-gap: 40px;
-  left: 120px;
-  display: flex;
-  flex-direction: row;
-}
-
 .footer {
   display: flex;
   height: 61px;
   flex-direction: row;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
-  column-gap: 328px;
-  margin-right: 121px;
+  padding: 0 121px 0 41%;
+  column-gap: 25%;
 }
 
 .rights {
@@ -353,4 +348,29 @@ figcaption {
   display: flex;
   flex-direction: row;
   column-gap: 20px;
+}
+
+.buttonSeeMore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  padding: 31px;
+
+  background-color: rgba(13, 96, 111, 1);
+  width: 228px;
+  height: 59px;
+  margin: 0px auto;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+}
+
+.buttonSeeMoreTitle {
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
 }
